@@ -16,6 +16,10 @@ nav{
 .logo{
   font-size: 1.2rem;
   color: rgb(33,33,33);
+  overflow: hidden;
+}
+.letter1,.letter2,.letter3,.letter4,.letter5,.letter6,.letter7,.letter8,.letter9{
+  display: inline-block;
 }
 
 .hero-section{

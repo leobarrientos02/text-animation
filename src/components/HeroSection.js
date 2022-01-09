@@ -7,8 +7,6 @@ const HeroSection = () => {
     const q = gsap.utils.selector(el);
     const tl = useRef();
 
-
-
     useLayoutEffect(()=>{
         tl.current = gsap.timeline()
         .fromTo(q(".hero-img"),
