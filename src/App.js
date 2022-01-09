@@ -1,15 +1,11 @@
 import React from "react";
-import { gsap } from "gsap";
-import Nav from "./components/Nav";
-import HeroSection from "./components/HeroSection";
+import Home from "./pages/home";
+
 
 function App() {
+
   return (
-    <>
-      <Nav />
-      <HeroSection />
-    </>
+    <Home />
   );
 }
-
 export default App;
